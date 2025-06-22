@@ -1,0 +1,14 @@
+# .gitlab-ci.yml
+image: alpine:latest
+
+pages:
+  stage: deploy
+  script:
+    - mkdir .public
+    - cp -r * .public || true
+    - mv .public public
+  artifacts:
+    paths:
+      - public
+  only:
+    - master
