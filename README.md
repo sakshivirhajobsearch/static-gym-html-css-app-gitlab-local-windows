@@ -19,7 +19,7 @@ No description provided.
 
 ## 🧠 Tech Stack Used
 
-- **Detected Technologies:** CSS, HTML, Machine Learning
+- **Detected Technologies:** Kubernetes / K8s, GitLab CI
 - **GitHub Topics:** None
 
 ---
